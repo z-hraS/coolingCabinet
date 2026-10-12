@@ -17,15 +17,19 @@ The project brings together embedded C++, serial communication, control logic an
 
 ## 🏗️ System architecture
 
+![System Architecture](assets/coolingCab.png)
+
 The architecture diagram illustrates the main components and communication paths between the embedded controller, connected hardware, Modbus RTU communication and the SCADA layer.
 
 ## ⚡️Hardware and Electrical Connections
 
+![Electrical Schematic](assets/CoolingCabSch.png)
 
 The electrical schematic documents the connections between the Arduino Uno and its peripherals, including the sensor, user inputs, indicators, display and motor-control components.
 
 ## 📈 SCADA Interface
 
+![SCADA Scheme](assets/coolingCabSCADASchemeView.png)
 
 The Rapid SCADA scheme provides a visual overview of the system's monitored values and status indicators. The interface is intended to make important operating conditions easier to inspect at a glance.
 
