@@ -9,11 +9,9 @@ An embedded monitoring and control project built around an Arduino Uno, C++, Mod
 - **SCADA visualization:** A supervisory interface for monitoring temperature, motor status and alarm conditions.
 
 ## ℹ️ Overview
-The Cooling Cabinet project is a practical exploration of embedded systems, hardware integration and industrial automation concepts.
+A cooling cabinet is a temperature-controlled enclosure used to maintain suitable operating temperatures for equipment or components that generate heat. By monitoring temperature and automatically activating cooling when needed, it helps prevent overheating and supports reliable equipment operation.
 
-An Arduino Uno runs the application logic, reads sensor inputs, manages local indicators and alarms and controls the motor. An LCD provides local feedback, while Modbus RTU enables communication with Rapid SCADA for supervisory monitoring and control.
-
-The project brings together embedded C++, serial communication, control logic and SCADA visualization in a single system.
+This project implements a simplified cooling cabinet controller using an Arduino Uno R3, with temperature monitoring, fan control, alarm, an LCD interface and Modbus RTU communication with Rapid SCADA.
 
 ## 🏗️ System architecture
 
